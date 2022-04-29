@@ -1,0 +1,102 @@
+.checkout-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    align-content: center;
+    max-width:100%;
+    min-height:100vh;
+    margin: 0 auto;
+    background-image: url(checkout-bg.jpg);
+}
+.text-header{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size:3.5em;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:45px;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #ad08c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.checkout-input-group{
+    background-color: #1d0b70;
+    padding:25px;
+    border-radius: 8px;
+    margin:0 5%;
+    max-width: 600px;
+}
+.checkout-input-group button{
+    border: none;
+    background-color:rgb(238, 67, 253);
+    color: #1d0b70;
+    outline:none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-weight:600;
+    transition: opacity .2s ease-in-out;
+}
+.checkout-input-group button:hover{
+    opacity:.5;
+}
+.checkout-input-group button:focus{
+    color: rgb(238, 67, 253) !important;
+    background-color: #1d0b70;
+}
+.checkout-input-group button:active{
+    color: rgb(238, 67, 253);
+    background-color:#1d0b70;
+}
+.form-checkoutId{
+    border: none;
+    border-radius:0;
+    border-bottom: 2px solid rgb(238, 67, 253);
+    outline:none;
+    font-family: 'Kanit', sans-serif;
+    font-weight:600 !important;
+    padding: 10px 5px ;
+    width: 100%;
+    color:rgb(238, 67, 253);
+    margin-bottom:25px;
+    background-color: transparent;
+    transition:box-shadow .2s ease-in-out;
+}
+.input-nombreApellido{
+    width: 100%;
+    display:flex;
+}
+.form-checkoutId::placeholder{
+    color: rgb(238, 67, 253);
+    font-weight:500;
+    background-color: transparent;
+}
+.form-checkoutId:focus{
+    background-color: rgb(238, 67, 253);
+    outline:0 !important;
+    box-shadow: 0px -22px 16px -23px rgb(238, 67, 253, 0.84) inset;
+    -webkit-box-shadow: 0px -22px 16px -23px rgb(238, 67, 253, 0.84) inset;
+    -moz-box-shadow: 0px -22px 16px -23px rgb(238, 67, 253, 0.84) inset;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    background-color: #1d0b70 !important;
+    color:rgb(238, 67, 253);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #1d0b70 inset !important;
+    -webkit-text-fill-color: rgb(238, 67, 253) !important;
+}
+input:-internal-autofill-selected{
+    background-color:#1d0b70 !important;
+}

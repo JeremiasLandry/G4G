@@ -1,0 +1,54 @@
+.stockInfo{
+    padding:0 25px;
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+.infoContainer{
+    min-width: 400px;
+    background-color:rgb(255, 255, 255);
+    padding:10px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detailCard{
+    margin: 40px;
+}
+.detailCard .card-img-top {
+    max-height: 500px;
+    max-width: 500px;
+    min-width:350px;
+}
+.link-with-button{
+    display: flex;
+    justify-content:center !important;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 !important;
+    transition: all .2s ease-in-out
+}
+.link-with-button:hover{
+    color: #fff;
+}
+
+@media screen and (max-width:768px){
+    .detailCard{
+        flex-direction: column;
+        margin: 25px 0;
+    }
+    .detailCard .card-img-top{
+        min-width:200px;
+        max-width: 300px;
+        display:flex;
+        margin: auto auto;
+    }
+    .infoContainer{
+        padding: 10px;
+        min-width: 200px;
+        align-items:center;
+        align-content: center;
+        justify-content:center;
+    }
+}

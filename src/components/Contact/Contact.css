@@ -1,0 +1,22 @@
+html{
+    overflow-x: hidden;
+}
+.messageBox{
+    border: 2px solid rgb(238, 67, 253) !important;
+    min-height: 150px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top:35px !important;
+}
+.contact-title{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size:1.8em;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:45px;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #ad08c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

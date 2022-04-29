@@ -1,0 +1,32 @@
+.item-list-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:1000px;
+    margin: auto;
+    margin-bottom:50px;
+}
+.item-list-container h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size:3.5em;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:45px;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #ad08c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-banner{
+    max-width:100vw;
+}
+
+@media screen and (max-width:768px){
+    .item-list-container h1{
+        font-size: 2.5em;
+        margin-left:5px;
+        margin-right:5px;
+    }
+}

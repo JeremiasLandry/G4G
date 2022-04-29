@@ -1,0 +1,18 @@
+.aviso-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    align-content:flex-start;
+    margin-top:25px;
+}
+.aviso-container h3{
+    margin:0;
+}
+.aviso-container span{
+    padding-left: 5px;
+}
+.aviso-title{
+    color: rgb(238, 67, 253);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}

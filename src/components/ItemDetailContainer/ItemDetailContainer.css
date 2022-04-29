@@ -1,0 +1,32 @@
+.itemDetailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height:100vh;
+}
+
+.getBack-btn{
+    margin: 0;
+    outline:none;
+    border-radius: 0px;
+    background-color:#ffffff;
+    color:#ad08c0;
+    text-align: left;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    padding:10px;
+    width: 100%;
+    transition: all 0.2s ease-in;
+}
+.text-button{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #ad08c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.getBack-btn:hover{
+    transform:scale(.97);
+    opacity:.9;
+}

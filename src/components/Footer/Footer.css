@@ -1,0 +1,40 @@
+.Footer{
+    width:100%;
+    display: flex;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(207,0,255,1) 100%) !important;
+    color: #ffffff;
+    font-size: 1.5em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.Footer-socials{
+    display:flex;
+    justify-content:center;
+    width: 20px;
+    align-items: center;
+}
+.Footer-terms{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer-terms small{
+    text-align: center;
+}
+.Footer a{
+    text-decoration: none;
+    color: #ffffff;
+    padding:0px;
+}
+.Footer a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.fa-twitter,.fa-github,.fa-linkedin{
+    padding:0 3px;
+    cursor: pointer;
+}
