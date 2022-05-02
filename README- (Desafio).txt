@@ -7,6 +7,13 @@ Cuenta con
 -  filtro por categorías: tomando las categorías de la base de datos se generan filtros de productos.
 - vistas de listas de productos: vista general de productos con foto y detalles mínimos.
 - vista de detalles: vista con todos los detalles del producto.
+- pagina contacto: el usuario puede enviar una consulta y esta llega a la base de datos.
+- minimamente responsive
+- carrito para almacenar los productos elegidos.
+- la informacion del carrito permanece, gracias al uso de LocalStorage.
+- checkout: pagina que valida la compra y te da un numero de orden. La orden de compra del usuario es enviada a una base de datos.
+
+
 
 ## Instalación
 
@@ -35,6 +42,9 @@ Cuenta con
 Uso de Bootstrap para dar formato a la aplicación.
 
 Uso de React Router Dom para la navegación
+
+Uso de FontAwesomeIcon para estilizar la pagina.
+
 
 
 ### Autor
