@@ -11,10 +11,10 @@ const Footer = () => {
           <a href='#'>
             <FontAwesomeIcon icon={faTwitter}/>
           </a>
-          <a href='https://github.com/EliasLandry' target='_blank'>
+          <a href='#'>
             <FontAwesomeIcon icon={faGithub}/>
           </a>
-          <a href='https://www.linkedin.com/in/elias-landry-0620a2228/' target='_blank'>
+          <a href='#'>
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </div>

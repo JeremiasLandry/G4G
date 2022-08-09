@@ -12,7 +12,7 @@ import './Checkout.css'
 
 const Checkout = () => {
 
-    const{cart, cartTotal, clearCart} = useContext(CartContext)
+    const {cart, cartTotal, clearCart} = useContext(CartContext)
 
     const [orderId, setOrderId] = useState(null)
     const [loader, setLoader] = useState(false)
@@ -66,7 +66,6 @@ const Checkout = () => {
                   } else {
                     setAviso2(true)
                     setLoader(false)
-                     //reemplazar por componente modal.
                   }
                 })
         })
